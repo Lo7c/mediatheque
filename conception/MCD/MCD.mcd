@@ -1,0 +1,7 @@
+ADHERENT: id_adherent, nom, prenom, date_naissance, date_inscription, adresse, email, telephone
+EFFECTUER, 0N ADHERENT, 11 EMPRUNT
+EMPRUNT: id_emprunt, date_emprunt, date_retour_prevue, date_retour_effective
+CONCERNER, 0N OUVRAGE, 11 EMPRUNT
+OUVRAGE: id_ouvrage, titre, isbn, annee_parution, collection, edition, genre
+ECRIRE, 0N AUTEUR, 11 OUVRAGE
+AUTEUR: id_auteur, nom, prenom, date_naissance, lieu_naissance

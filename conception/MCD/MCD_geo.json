@@ -1,0 +1,31 @@
+{
+  "width": 906,
+  "height": 188,
+  "cx": [
+    [ "ADHERENT", 63 ],
+    [ "EFFECTUER", 191 ],
+    [ "EMPRUNT", 336 ],
+    [ "CONCERNER", 485 ],
+    [ "OUVRAGE", 616 ],
+    [ "ECRIRE", 731 ],
+    [ "AUTEUR", 845 ]
+  ],
+  "cy": [
+    [ "ADHERENT", 94 ],
+    [ "EFFECTUER", 94 ],
+    [ "EMPRUNT", 94 ],
+    [ "CONCERNER", 94 ],
+    [ "OUVRAGE", 94 ],
+    [ "ECRIRE", 94 ],
+    [ "AUTEUR", 94 ]
+  ],
+  "shift": [
+    [ "EFFECTUER,ADHERENT,0", 0 ],
+    [ "EFFECTUER,EMPRUNT,0", 0 ],
+    [ "CONCERNER,OUVRAGE,0", 0 ],
+    [ "CONCERNER,EMPRUNT,0", 0 ],
+    [ "ECRIRE,AUTEUR,0", 0 ],
+    [ "ECRIRE,OUVRAGE,0", 0 ]
+  ],
+  "ratio": []
+}
