@@ -99,8 +99,9 @@ Le script vide d'abord les tables, des emprunts vers les auteurs pour respecter 
 
 ## Lancement de l'API
 ```bash
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload-dir app
 ```
+`--reload-dir app` limite le rechargement automatique au code de l'application, pour ignorer l'environnement virtuel.
 
 - API: http://127.0.0.1:8000
 - Documentation interactive: http://127.0.0.1:8000/docs
