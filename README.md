@@ -102,7 +102,7 @@ Le script vide d'abord les tables, des emprunts vers les auteurs pour respecter 
 uvicorn app.main:app --reload
 ```
 
-- API: http://127.0.1:8000
+- API: http://127.0.0.1:8000
 - Documentation interactive: http://127.0.0.1:8000/docs
 
 ## Endpoints
